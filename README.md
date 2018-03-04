@@ -19,4 +19,4 @@ Goto http://localhost:9000/ from your browser
 # Use server from command line (NER Tagger)
 `$ wget -q -O - --post-data 'The quick brown fox jumped over the lazy dog.' 'localhost:9000/?properties={"annotators":"entitymentions","outputFormat":"json"}'`
 # Stop server
-`docker rm -f stanfordcorenlp`
+`$ docker rm -f stanfordcorenlp`
